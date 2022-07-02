@@ -44,6 +44,7 @@ function tareaRealizada(element) {
 
 //funcion de tarea eliminada
 function tareaEliminada(element) {
+
     element.parentNode.parentNode.removeChild(element.parentNode)
     LIST[element.id].eliminado = true
 }
